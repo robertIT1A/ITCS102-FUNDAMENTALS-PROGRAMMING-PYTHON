@@ -27,5 +27,5 @@ print(onehund,"-- 100")
 print(fifty,"-- 50")
 print(twe,"-- 20")
 print(ten,"-- 10")
-
 print(peso,"-- 1")
+
