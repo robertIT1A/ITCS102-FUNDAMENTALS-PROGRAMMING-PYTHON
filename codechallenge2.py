@@ -19,7 +19,7 @@ ten = twent//10
 tens = twent%10
 peso = tens//1
 pesos = tens%1
-print("Here is a breakdown, using Philippine denominition:")
+print("Here is a breakdown using Philippine denominition:")
 print(onethou,"-- 1000")
 print(fivehund,"-- 500")
 print(twohund,"-- 200")
@@ -27,4 +27,5 @@ print(onehund,"-- 100")
 print(fifty,"-- 50")
 print(twe,"-- 20")
 print(ten,"-- 10")
+
 print(peso,"-- 1")
