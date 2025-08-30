@@ -1,7 +1,6 @@
 username = "Junior"
 password = "Good_B0y"
 
-import getpass
 while True: #To repeat the username until it's correct
     name = input("Enter your username: ")
     if name == username:
@@ -16,4 +15,5 @@ if password1 == password:
     print("Access Complete")
 else:
     print("Access Denied")
+
 
