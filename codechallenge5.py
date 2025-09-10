@@ -45,7 +45,7 @@ if gen.lower() == "romance":
     elif time.lower() == "long":
         yr = input("Which decade? (2000s, 2010s): ")
         if yr == "2000s":
-            print("\nOur Manga Recommendation: \n\tSalad Days by Shinobu Inokuma \n\tSalad Days by Shinobu Inokuma")
+            print("\nOur Manga Recommendation: \n\tSalad Days by Shinobu Inokuma \n\tNana by Ai Yazawa")
         elif yr == "2010s":
             print("\nOur Manga Recommendation: \n\tKaguya-sama: Love Is War by Aka Akasaka \n\tA Condition Called Love (Hananoi-kun to Koi no Yamai) by Megumi Morino")    
 
@@ -73,3 +73,4 @@ if gen.lower() == "horror":
 
 else:
     print("\n\tSorry but that genre isn't available. Please try again.")
+
