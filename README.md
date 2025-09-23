@@ -20,7 +20,7 @@
 
 [activity11](https://github.com/robertIT1A/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity11.py) Condition Statement: Identify the whole number
 
-[activity12](
+[activity12](https://github.com/robertIT1A/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity12.py) Print a word as many as you want
 
 [activity13](https://github.com/robertIT1A/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity13.py) for loop: Ask the user to input a number using loop and then contatenate all the input numbers.
 
