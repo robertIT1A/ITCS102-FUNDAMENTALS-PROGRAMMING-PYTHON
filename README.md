@@ -60,3 +60,5 @@
 Make a triangle using kalso
 
 [Code_Challenge11](https://github.com/robertIT1A/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/code_challenge11.py) Diamond
+
+[Code_Challenge13](https://github.com/robertIT1A/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/code_challenge13.py) Christmas Tree
