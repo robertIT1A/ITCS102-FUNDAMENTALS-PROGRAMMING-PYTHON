@@ -40,6 +40,8 @@
 
 [activity20](https://github.com/robertIT1A/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity20.py) Combined Loop
 
+[activity21](https://github.com/robertIT1A/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity21.py) While Loop: To Do List
+
 [Code_Challenge1](https://github.com/robertIT1A/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/code_challenge1.py) Diamond output with name in the middle
 
 [Code_Challenge2](https://github.com/robertIT1A/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/code_challenge2.py) Breakdown denominition using Philippine peso
