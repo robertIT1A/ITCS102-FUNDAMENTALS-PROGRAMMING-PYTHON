@@ -21,11 +21,12 @@ while proceed == True:
     elif num == 0: # Stop while the user input 0
         print("Loop Terminated")
         break
-    else:
+    else: # If the user enter a Even number
         print("Even detected")
         print("Skipping")
         continue
 
 print(f"Hi {name}, The sum of all the EVEN numbers is {odd}")
 print(f"All odd number: {con}")
+
 
