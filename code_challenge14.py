@@ -6,7 +6,7 @@
 
 
 name = input("Enter your name: ")
-
+print("-"*40)
 odd = 0
 con = "" # Empty list
 proceed = True
@@ -28,3 +28,4 @@ while proceed == True:
 
 print(f"Hi {name}, The sum of all the EVEN numbers is {odd}")
 print(f"All odd number: {con}")
+
