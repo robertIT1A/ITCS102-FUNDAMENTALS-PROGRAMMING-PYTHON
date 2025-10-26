@@ -68,3 +68,7 @@ Make a triangle using kalso
 [Code_Challenge12](https://github.com/robertIT1A/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/code_challenge12.py) print a number going down in a form of triangle 
 
 [Code_Challenge13](https://github.com/robertIT1A/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/code_challenge13.py) Christmas Tree
+
+[Code_Challenge14](https://github.com/robertIT1A/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/code_challenge14.py) Refactor odd number input handling
+
+[Code_Challenge15](https://github.com/robertIT1A/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/code_challenge15.py) Anime list Using list operations
