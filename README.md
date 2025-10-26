@@ -51,6 +51,15 @@
 
 [activity21](https://github.com/robertIT1A/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity21.py) While Loop: To Do List
 
+
+<div align="center">
+  <a href="https://git.io/typing-svg"
+    ><img
+      src="https://readme-typing-svg.demolab.com?font=Righteous&size=35&color=3399FF&center=true&vCenter=true&width=400&height=70&duration=4000&lines=Coed_Challenge;On+ITCS_102;"
+      alt="Typing SVG"
+  /></a>
+</div>
+
 [Code_Challenge1](https://github.com/robertIT1A/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/code_challenge1.py) Diamond output with name in the middle
 
 [Code_Challenge2](https://github.com/robertIT1A/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/code_challenge2.py) Breakdown denominition using Philippine peso
