@@ -1,3 +1,12 @@
+<div align="center">
+  <a href="https://git.io/typing-svg"
+    ><img
+      src="https://readme-typing-svg.demolab.com?font=Righteous&size=35&color=3399FF&center=true&vCenter=true&width=500&height=70&duration=4000&lines=My+Activity;On+ITCS_102;"
+      alt="Typing SVG"
+  /></a>
+</div>
+
+
 [activity1](https://github.com/robertIT1A/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity1.txt) About Myself
 
 [activity1.1](https://github.com/robertIT1A/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity1.py) Hello World
