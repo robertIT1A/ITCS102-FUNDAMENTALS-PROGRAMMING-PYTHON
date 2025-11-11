@@ -53,6 +53,10 @@
 
 [activity22](https://github.com/robertIT1A/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity22.py) import random: Number Guess Game
 
+[activity23](https://github.com/robertIT1A/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity23.py)List and Function
+
+[activity24](https://github.com/robertIT1A/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity24.py)Introduction To Definition def 
+
 
 <div align="center">
   <a href="https://git.io/typing-svg"
