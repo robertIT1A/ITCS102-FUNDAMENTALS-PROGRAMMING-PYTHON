@@ -51,6 +51,8 @@
 
 [activity21](https://github.com/robertIT1A/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity21.py) While Loop: To Do List
 
+[activity22](https://github.com/robertIT1A/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity22.py) import random: Number Guess Game
+
 
 <div align="center">
   <a href="https://git.io/typing-svg"
