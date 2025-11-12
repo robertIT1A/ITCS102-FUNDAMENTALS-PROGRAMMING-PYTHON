@@ -57,6 +57,14 @@
 
 [activity24](https://github.com/robertIT1A/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity24.py) Introduction To Definition def 
 
+[activity24_1](https://github.com/robertIT1A/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity24_1.py) from and import
+
+[activity25](https://github.com/robertIT1A/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity25.py) Compilation
+
+[activity25_1](https://github.com/robertIT1A/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity25_1.py) def of all activity
+
+[activity25_2](https://github.com/robertIT1A/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity25_2.py) 	
+def of all code challenge
 
 <div align="center">
   <a href="https://git.io/typing-svg"
