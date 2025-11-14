@@ -66,6 +66,11 @@
 [activity25_2](https://github.com/robertIT1A/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity25_2.py) 	
 def of all code challenge
 
+[activity26](https://github.com/robertIT1A/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity26.py) dictionary: Love Language
+
+[activity27](https://github.com/robertIT1A/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity27.py) dictionary 2.0
+
+
 <div align="center">
   <a href="https://git.io/typing-svg"
     ><img
