@@ -38,12 +38,13 @@ while tuloy == True:
     elif ulit == "s":
         code = input("Enter the nickname of your favorite person you are looking for: ")
         search(code)
-    elif ulit == "e":
+    elif ulit == "x":
         print("Exiting.........")
         time.sleep(2)
         exit()
     else:
         print("Invalid")
         continue
+
 
 
