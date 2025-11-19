@@ -13,6 +13,9 @@ def review_fav_list():
     print("This will ends in....")
 
 def delete():
+  print(f"Student Id number {student_list[code]} is remove to the list")
+  countdown()
+  os.system('cls')
   # code = input("Enter Student ID to delete: ")
   # if code in student_list:
   #   removed_student = student_list.pop(code)  # Safely remove by key
@@ -20,10 +23,7 @@ def delete():
   #   countdown()
   #   os.system('cls')
 
-  remove = student_list.remove(code)
-  print(f"Student Id number {Search_cod} is remove to the list")
-  countdown()
-  os.system('cls')
+  
 
 def countdown():
   for i in range(5):
@@ -65,7 +65,34 @@ while True:
     countdown()
     os.system('cls')
   elif option == "e":
-     pass
+      code = input("Enter the code you want to change: ")
+      print(f"Result shows is {student_list[code]}")
+      edit = int(input("Option to edit\n Type the number\n 1. First name\n 2. Last name\n 3. Course\n----> "))
+      while True:
+        if edit == 1:
+          print("Editing First Name")
+          new = input("Enter a new First Name: ")
+          student_list[code][0] = new # para mabago yung values
+        elif edit == 2:
+          print("Editing Last Name")
+          new = input("Enter a new Last Name: ")
+          student_list[code][1] = new
+        elif edit == 3:
+          print("Editing Course")
+          new = input("Enter a new Course: ")
+          student_list[code][2] = new
+        else:
+          print("Invalid choose")
+        print(f"{student_list[code]} Is the new Student Data")
+        option = input("Do you want to edit again?(yes/no) ").lower()
+        if option == "yes":
+          continue
+        elif option == "no":
+          os.system("cls")
+          break
+      
+
+
   else:
     print("Invalid")
     os.system('cls')
