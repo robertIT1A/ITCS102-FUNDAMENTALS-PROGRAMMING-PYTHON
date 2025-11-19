@@ -109,3 +109,5 @@ Make a triangle using kalso
 [Code_Challenge14](https://github.com/robertIT1A/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/code_challenge14.py) Refactor odd number input handling
 
 [Code_Challenge15](https://github.com/robertIT1A/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/code_challenge15.py) Anime list Using list operations
+
+[Code_Challenge16](https://github.com/robertIT1A/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/code_challenge16.py) dictionary with key and values
