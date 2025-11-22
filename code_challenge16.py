@@ -1,5 +1,6 @@
 import os
 import time
+import json
 # os.sytstem('cls)
 print("Student Information System")
 print("---------------------------")
@@ -26,12 +27,13 @@ def delete():
   
 
 def countdown():
-  for i in range(5):
+  for i in range(1,4):
     print(i)
     time.sleep(1)
 
 while True:
-  print("Select the option below:\n A - Add information\n B - Search a Record\n C -  Delete a Record\n D - Review a Record\n E - Modify the List")
+  os.system("cls")
+  print("Select the option below:\n A - Add information\n B - Search a Record\n C - Delete a Record\n D - Review a Record\n E - Modify the List\n F - Export Student Record\n G - Import Student Record\n H - Exit the program")
 
   option = input("Enter your option: ").lower()
   
@@ -39,11 +41,12 @@ while True:
     Search_cod = input("Student Id: ")
     first_name = input("Enter First name: ").capitalize()
     last_name = input("Enter Last name: ").capitalize()
-    course = input("Student Course: ")
+    course = input("Student Course: ").upper()
 
     # student_list = {Search_cod : [first_name, last_name, course]}
     student_list[Search_cod] = [first_name, last_name, course]
     print("DATA SAVED")
+    countdown()
     os.system('cls')
 
   elif option == "b":
@@ -57,7 +60,9 @@ while True:
     code = input("Enter Student Id: ")
     if code in student_list: # dito nagsearch na ako pano mawala yung pinaka unang keys kasi yung last lagi yung pede lang madelete
       del student_list[code]
-        # delete()
+      print(f"Student Id number {student_list[code]} is remove to the list")
+      countdown()
+      os.system('cls')
     else:
       print("The Student Id is not found")
   elif option == "d":
@@ -65,21 +70,21 @@ while True:
     countdown()
     os.system('cls')
   elif option == "e":
-      code = input("Enter the code you want to change: ")
-      print(f"Result shows is {student_list[code]}")
-      edit = int(input("Option to edit\n Type the number\n 1. First name\n 2. Last name\n 3. Course\n----> "))
       while True:
+        code = input("Enter the code you want to change: ")
+        print(f"Result shows is {student_list[code]}")
+        edit = int(input("Option to edit\n Type the number\n 1. First name\n 2. Last name\n 3. Course\n----> "))
         if edit == 1:
           print("Editing First Name")
-          new = input("Enter a new First Name: ")
+          new = input("Enter a new First Name: ").capitalize()
           student_list[code][0] = new # para mabago yung values
         elif edit == 2:
           print("Editing Last Name")
-          new = input("Enter a new Last Name: ")
+          new = input("Enter a new Last Name: ").capitalize()
           student_list[code][1] = new
         elif edit == 3:
           print("Editing Course")
-          new = input("Enter a new Course: ")
+          new = input("Enter a new Course: ").upper()
           student_list[code][2] = new
         else:
           print("Invalid choose")
@@ -90,8 +95,42 @@ while True:
         elif option == "no":
           os.system("cls")
           break
+      # isa = input("Do you want to edit another data")
+      # if option == "yes":
+      #   continue
+      # elif option == "no":
+      #   os.system("cls")
+      #   break
       
+  elif option == "f":
+    os.system("cls")
+    print("Export Student Record")
+              # file name, read(r) for Import/ write(w) for Export
+    with open('student_record.json','w') as new_file:
+      json.dump(student_list, new_file, indent=4)
 
+    print("DATA EXPORTED TO JSON")
+    countdown()
+    os.system('cls')
+
+  elif option == "g":
+    os.system("cls")
+    print("Import Student Record")
+              # file name, read(r) for Import/ write(w) for Export
+    with open('student_record.json','r') as new_file:
+      student_json = json.load(new_file)
+
+    student_list = student_json
+    print("DATA IMPORTED TO JSON")
+    countdown()
+    os.system('cls')
+
+  elif option == "h":
+    os.system("cls")
+    print("Exiting The Program........")
+    countdown()
+    os.system("cls")
+    exit()
 
   else:
     print("Invalid")
