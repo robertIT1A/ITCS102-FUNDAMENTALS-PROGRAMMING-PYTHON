@@ -70,6 +70,8 @@ def of all code challenge
 
 [activity27](https://github.com/robertIT1A/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity27.py) dictionary 2.0
 
+[activity28](https://github.com/robertIT1A/ITCS102-FUNDAMENTALS-PROGRAMMING-PYTHON/blob/main/activity28.py) pygame: Snake na matakaw
+
 
 <div align="center">
   <a href="https://git.io/typing-svg"
