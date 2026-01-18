@@ -57,14 +57,35 @@ while True:
     os.system('cls')
     continue
   elif option == "c":
-    code = input("Enter Student Id: ")
-    if code in student_list: # dito nagsearch na ako pano mawala yung pinaka unang keys kasi yung last lagi yung pede lang madelete
-      del student_list[code]
-      print(f"Student Id number {student_list[code]} is remove to the list")
-      countdown()
-      os.system('cls')
+    code = input("Enter Student Id to delete: ")
+    
+    if code in student_list:
+        # 1. Retrieve the student info before deleting to show a message
+        student_info = student_list[code]
+        print(f"Found: {student_info[0]} {student_info[1]}")
+        
+        confirm = input(f"Are you sure you want to delete Student {code}? (yes/no): ").lower()
+        
+        if confirm == "yes":
+            # 2. Use pop() to remove the key-value pair
+            student_list.pop(code)
+            print(f"Student Id number {code} has been removed from the list.")
+            countdown()
+        else:
+            print("Deletion cancelled.")
+            time.sleep(1)
     else:
-      print("The Student Id is not found")
+        print("Error: The Student Id was not found.")
+        time.sleep(2)
+    
+    os.system('cls')
+
+
+
+
+
+
+
   elif option == "d":
     review_fav_list()
     countdown()
